@@ -18,3 +18,6 @@ Este código realiza **web scraping** para obter os valores de cotação das **c
 > 3. **Desempenho e Carga no Servidor** – Scrapers mal projetados podem gerar altas requisições, causando lentidão ou bloqueio pelo site alvo.
 > 4. **Qualidade e Confiabilidade dos Dados** – Os dados extraídos podem estar incompletos, desatualizados ou inconsistentes, comprometendo as análises.
 > 5. **Dificuldade com Conteúdo Dinâmico** – Sites que usam JavaScript pesado (como React ou Vue.js) podem exigir selenium ou APIs, tornando o processo mais complexo e lento.
+
+> [!NOTE]
+> ### O arquivo 'DadosInvesting.csv' foi extraído no dia 13/02/2025, por tanto, as tabelas de ações contém apenas os dados dos fechamentos posteriores ao dia 01/01/2020 e anteriores ao dia 13/02/2025
