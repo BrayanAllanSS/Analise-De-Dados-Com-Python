@@ -21,7 +21,7 @@ headers = {
 st.set_page_config(page_title='Análise dos principais ativos brasileiros', layout='wide')
 
 # Leitura do arquivo CSV com os dados financeiros. O separador é ";" e a codificação é 'latin1'
-data = pd.read_csv('https://github.com/BrayanAllanSS/Analise-De-Dados-Com-Python/blob/main/Web-Scraping-Investing/DadosInvesting.csv', sep=',')
+data = pd.read_csv('Web-Scraping-Investing//DadosInvesting.csv', sep=',')
 
 # Criação do DataFrame a partir dos dados lidos
 df = pd.DataFrame(data)
