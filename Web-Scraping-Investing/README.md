@@ -1,8 +1,9 @@
 ###  Web Scraping de Cotações das Ações Brasileiras  
 
 Este código realiza **web scraping** para obter os valores de cotação das **cinco principais ações brasileiras** listadas no site **Investing**
+### 🌐 Link para visualização no Streamlit: https://screping-ivesting-with-python.streamlit.app/
 
-## 📌 Fluxo do Código
+### 📌 Fluxo do Código
 > [!TIP]
 > ### Processo de Coleta e Exibição de Dados
 > 1. **Automação do Navegador** → Utiliza a biblioteca **Selenium** para acessar o site e navegar até as páginas das ações.  
